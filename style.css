@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+}
+.form{
+    background-color: gray;
+    border-radius: 10px;
+    padding: 10px;
+}
+.numbers{
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.oper{
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: orange;
+    font-size: 16px;
+    font-weight: bold;
+}
+.numbers:hover{
+    cursor: pointer;
+}
+.oper:hover{
+    color: white;
+    cursor: pointer;
+}
+input{
+    border-radius: 10px;
+    border: none;
+    padding: 7px;
+    margin-left: 5px;
+    font-size: 1em;
+    font-weight: bold;
+}
